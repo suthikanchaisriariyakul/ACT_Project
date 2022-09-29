@@ -1,0 +1,54 @@
+body {
+  background-color: #f2eee3;
+}
+
+header {
+  min-height: 100px;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid .row {
+  margin: 0;
+  padding: 0;
+}
+
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.megamenu {
+  position: static;
+}
+.megamenu .dropdown-menu {
+  border: none;
+  width: 100%;
+}
+
+.img-logo {
+  margin: 0.3rem 0rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  /* margin-left: 2rem; */
+}
+
+.brand-name {
+  float: left;
+  font-size: 16px;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.maxim {
+  float: left;
+  font-size: 14px;
+  font-weight: 300;
+  color: aliceblue;
+}
